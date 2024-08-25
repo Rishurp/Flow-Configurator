@@ -26,7 +26,7 @@ export default function RightPanel() {
   );
 
   return (
-    <div className="h-[90.6vh]">
+    <div className="h-[90.6vh] relative z-0">
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -41,6 +41,11 @@ export default function RightPanel() {
           variant={BackgroundVariant.Lines}
         />
       </ReactFlow>
+      <div className="absolute z-1 left-8  bottom-10 text-white">
+        <button className="px-2 py-2 bg-[#F27400] text-[#FFFFFF] drop-shadow-2xl rounded-md">
+          + Add Methods
+        </button>
+      </div>
     </div>
   );
 }

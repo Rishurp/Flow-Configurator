@@ -29,7 +29,7 @@ const CustomTextField = styled(TextField)({
 const RightPanel = () => {
   return (
     <div>
-      <div className="bg-[#363636] z-0 relative h-[95.6vh] text-white p-4">
+      <div className="bg-[#363636] z-0 relative h-[95.6vh] text-white p-4 ">
         <p className="font-bold text-xl">cart_campaign</p>
         <div className="pt-6 flex items-center ">
           <div>
@@ -156,8 +156,10 @@ const RightPanel = () => {
         </div>
       </div>
       <div className=" mt-2 border-t-2 h-[8vh] w-[19.2%] absolute right-0 bottom-0 border-t-[#505050]  bg-[#363636] z-1 flex justify-end items-center ">
-        <div>
-          <button className="p-4">Save</button>
+        <div className="px-4">
+          <button className="px-6 py-2 bg-[#009FF9] text-[#FFFFFF] drop-shadow-2xl rounded-md">
+            Save
+          </button>
         </div>
       </div>
     </div>
