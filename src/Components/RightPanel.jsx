@@ -1,4 +1,3 @@
-import React from "react";
 import newTab from "../assets/newTab.svg";
 import Information from "../assets/information.svg";
 import TextField from "@mui/material/TextField";

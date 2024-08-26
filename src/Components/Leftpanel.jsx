@@ -1,4 +1,3 @@
-import React, { version } from "react";
 import logo from "../assets/logo.svg";
 import profile from "../assets/profile.svg";
 // import MenuIcon from "@mui/icons-material/Menu";
@@ -23,7 +22,7 @@ const Leftpanel = () => {
             {/* <RestoreIcon /> */}
             <img src={Frame} alt="frame" />
           </div>
-    
+
           <div className="pt-8 cursor-pointer">
             <img src={git} alt="git" />
           </div>

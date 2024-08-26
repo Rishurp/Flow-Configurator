@@ -1,4 +1,3 @@
-import React from "react";
 import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 
 const Footer = () => {
