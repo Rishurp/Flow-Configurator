@@ -14,6 +14,9 @@ const CustomTextField = styled(TextField)({
     "&.Mui-focused fieldset": {
       borderColor: "#FFAD62", // Border color when focused
     },
+    "& input": {
+      color: "#FFFFFF", // Text color for the input field
+    },
   },
 
   width: "100%",
@@ -140,7 +143,7 @@ const RightPanel = () => {
             </div>
           </div>
         </div>
-        <div clasName="InputFields   ">
+        <div className="InputFields   ">
           <p className="pt-2 mb-2"> Database Configurations</p>
           <div className="pt-2">
             <CustomTextField label="Database User" variant="outlined" />
